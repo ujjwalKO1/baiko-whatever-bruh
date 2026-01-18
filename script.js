@@ -1,26 +1,26 @@
 const questions = [
   {
     text: "Shonie, why are you here?",
-    options: ["Just clicked", "Miss Baiko", "No idea"]
+    options: ["Just clicked", "Miss Kuttavva", "No idea"]
   },
   {
     text: "Be honest 😌",
-    options: ["I miss Baiko", "I REALLY miss Baiko", "I’m pretending I don’t"]
+    options: ["I miss Kuttavva", "I REALLY miss Kuttavva", "I’m pretending I don’t"]
   },
   {
-    text: "If Baiko is angry, what do you do?",
+    text: "If Kuttavva is angry, what do you do?",
     options: ["Say sorry", "Give hug", "All of the above"]
   },
   {
     text: "Who do you choose?",
-    options: ["Ego", "Peace", "Baiko"]
+    options: ["Ego", "Peace", "Kuttavva"]
   },
   {
-    text: "Life without Baiko would be…",
+    text: "Life without Kuttavva would be…",
     options: ["Empty", "Boring", "Impossible"]
   },
   {
-    text: "Do you want to be with Baiko?",
+    text: "Do you want to be with Kuttavva?",
     options: ["Yes", "Obviously yes", "Why is this even a question"]
   },
   {
@@ -74,7 +74,7 @@ function handleAnswer(answer) {
 function showFinal() {
   questionEl.textContent = "Congratulations Shonie 🎉";
   optionsEl.innerHTML = `
-    <p>You officially choose Baiko ❤️</p>
+    <p>You officially choose Kuttavva ❤️</p>
     <p>No more fighting.</p>
     <p>No more drama.</p>
     <p>Only love, hugs, and forever 💖</p>
